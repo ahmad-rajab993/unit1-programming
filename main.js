@@ -1,134 +1,116 @@
-// this code is defining a variable
-let x = 5;
-// console.log(x);
-let X = 20;
-// console.log(X);
+// const { useSyncExternalStore } = require("react");
 
-let age = 5;
-age = 15;
+console.log("Program started");
 
-let firstName = "ahmad"; // lastName firstDayLearning
-let lastName = "Alomar";
-lastName = "shabaan";
-// let fullName = firstName + " " + lastName;
-// console.log(`welcome ${firstName} ${lastName} to our school`); // template literals
+// let mark =30;
 
-let r = 25;
-let z = 2;
+// if(mark>50) {
+//     console.log("Pass");
+//     }else{
+//         console.log("Failed");
 
-// console.log(r%z);
-r++;
-r--;
-// console.log(r);
+//     }
 
-let q = 10;
+// let mark = 0;
 
-// q= q+25;
-// q+=25;
-//  q = q -20;
-q -= 20;
-// console.log(q);
-
-// q+= 27  // q=q+27
-
-const age2 = 40;
-// age2 = 50; gives errors
-// console.log(q);
-// console.log(typeof q);
-
-q = "ahmed";
-// console.log(q);
-
-// console.log(typeof q);
-
-let isMarried = true;
-
-// console.log(typeof isMarried);
-
-let email;
-
-// console.log(typeof email); // undefined
-
-email = null; // null object
-// console.log(typeof email);
-
-email = ""; // string
-// console.log(typeof email);
-
-//arethmetics operators
-
-let p = 5 + 2 * 3; /// 5+6=11
-// console.log(p);
-
-p = (5 + 2) * 3; /// 7*3=21
-
-// console.log(p);
-
-p = 2 + 3 ** 2; //2+9=11
-
-// console.log(p);
-
-// console.log ( 5>3 );
-// console.log ( 5<=5 );
-// console.log ( 5=="5" );
-// console.log ( 5==="5" );
-
-// let mark = 65;
-
-// console.log(mark >50);
-// mark = 50;
-// console.log(mark >50); // false
-// console.log(mark >=50); // true
-
-// let mark = 70;
-
-// if (mark > 50)
-//      {
-//   console.log("success");
-// }
-// else 
-//     {
-//     console.log("failed");
+// if (mark > 85) {
+//   console.log("Excellent");
+// } else if (mark >= 70) {
+//   console.log("good");
+// } else if (mark >= 60) {
+//   console.log("Pass");
+// } else {
+//   console.log("Failed");
 // }
 
-// console.log("the mark is " + mark);
+// if(mark<=60){
+//    console.log("Failed");
 
-// isMarried = false;
+// }else if(mark<70){
+//     console.log("Pass");
+// }else if(mark<=85){
+//     console.log("good");
 
-// if(isMarried) 
-//     { 
-     
-//     console.log("you are married");
-
-// }
-// else{
-
-   
-//     console.log("you are not married");
+// }else{
+//     console.log("Excellent");
 
 // }
+// let age = 30;
+// let hasLicence = false;
 
-// let mark =60.5;
+// if (age >= 21) {
+//   if (hasLicence) {
+//     console.log("You can rent car");
+//   } else {
+//     console.log("You don't have licence so you can't rent car");
+//   }
+// } else {
+//   console.log("You are under 21 years old");
+// // }
 
-// if( mark > 60){  
-
-//     console.log("success");
+// if (age >= 21 && hasLicence) {
+//   console.log("You can rent car");
+// } else {
+//   console.log("You can't rent car");
 // }
-// else
-//     {
-//     console.log("failed");
 
+// let isLoggedIn = true;
+// let isAdmin = true;
+
+// if (isLoggedIn) {
+//   if (isAdmin) {
+//     console.log("Admin Page");
+//   } else  {
+//     console.log("Normal User Page");
+//   }
+// } else {
+//   console.log("Forbidden");
 // }
 
+// let isLoggedIn = true;
+// let isAdmin = false;
 
-let mark = 67;
-let successLimit = 61;
+// if(isLoggedIn && isAdmin){
+//     console.log("Admins page");
+// }else if(isLoggedIn){
+//     console.log("Users Page");
+// }else {
+//     console.log("Forbidden");
+// }
 
-if(mark >= successLimit) //  67 >= 61 true
-    {
-    console.log("success");
-}
-else
-    {
-    console.log("Failed")
-}
+// let isInsideCity = true;
+// let place = "B";
+
+// if(isInsideCity && place === "A"){
+//     console.log("Price = 20");
+// }else if (isInsideCity && place === "B"){
+//     console.log("Price = 30");
+// }else if(!isInsideCity && place === "C"){
+//     console.log("Price = 50");
+// }else{
+//     console.log("price = 70");
+// }
+//  console.log("Program Ended");
+
+// let isInsideCity = true;
+// let Area = "B";
+// let cost;
+
+// if (isInsideCity) {
+//   if (Area === "D") {
+//     cost = 20;
+//   } else {
+//     cost = 30;
+//   }
+// } else {
+//   if (Area === "C") {
+//     cost = 50;
+//   } else {
+//     cost = 70;
+//   }
+// }
+
+// console.log(cost);
+
+
+
