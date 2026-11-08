@@ -112,5 +112,35 @@ console.log("Program started");
 
 // console.log(cost);
 
+// let mark;
 
+// if(mark> 85){
+//   console.log("Excellent");
+// }else if(mark>= 70){
+//   console.log("good");
 
+// }else if (mark>= 60){
+//   console.log("Pass");
+// }else{
+//   console.log("Failed");
+// }
+
+let isSubscribed = false;
+let customerType = "Retired";
+let price = 15;
+let discountRate = 0.2;
+
+let finalPrice;
+
+if (isSubscribed) {
+   if (customerType === "Student" || customerType === "Retired") {
+    finalPrice = price - price * discountRate;
+  } else {
+    finalPrice = price;
+  }
+ 
+} else {
+  finalPrice = price;
+}
+
+console.log(finalPrice);
