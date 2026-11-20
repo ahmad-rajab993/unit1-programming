@@ -1,146 +1,149 @@
-// const { useSyncExternalStore } = require("react");
+// let dayNumber=-3;
+// let dayName;
 
-console.log("Program started");
+// if (dayNumber === 1) {
+//   dayName = "Sunday";
+// } else if (dayNumber === 2) {
+//   dayName = "Monday";
+// } else if (dayNumber === 3) {
+//   dayName = "Tuseday";
+// } else if (dayNumber === 4) {
+//   dayName = "Wedensday";
+// } else if (dayNumber === 5) {
+//   dayName = "Thursday";
+// } else if (dayNumber === 6) {
+//   dayName = "Friday";
+// } else if (dayNumber === 7) {
+//   dayName = "Saturday";
+// }else{
+//     dayName = null;
+// }
 
-// let mark =30;
+// console.log(dayName);
+// let dayNumber =-7;
+// let dayName;
 
-// if(mark>50) {
-//     console.log("Pass");
+// switch (dayNumber) {
+//   case 1:
+//     dayName = "Sunday";
+//     break;
+//   case 2:
+//     dayName = "Monday";
+//     break;
+//   case 3:
+//     dayName = "Tuseday";
+//     break;
+//   case 4:
+//     dayName = "Wedensday";
+//     break;
+//   case 5:
+//     dayName = "Thursday";
+//     break;
+//   case 6:
+//     dayName = "Friday";
+//     break;
+//   case 7:
+//     dayName = "Saturday";
+//     break;
+
+//     default:
+//         console.log("Wrong day number");
+
+// }
+
+// if(dayName !==undefined){
+
+// console.log(dayName);
+// }
+
+// // console.log("end of program");
+
+// let dayName = "Sunday";
+
+// switch (dayName) {
+//   case "Sunday":
+//   case "Monday":
+//   case "Tuseday":
+//   case "Wedensday":
+//   case "Thursday":
+//     console.log("WeekDay");
+//     break;
+
+//   case "Friday":
+//   case "Saturday":
+//     console.log("WeekEnd");
+//     break;
+
+//   default:
+//     console.log("Invalid Day");
+// }
+
+// let num1=5;
+// let num2=5;
+// let operator="-";
+
+// let result;
+
+// switch (operator) {
+//   case "+":
+//     result = num1 + num2;
+//     break;
+//   case "-":
+//     result = num1 - num2;
+//     break;
+//   case "*":
+//     result = num1 * num2;
+//     break;
+//   case "/":
+//     if(num2 !== 0){
+//         result= num1/num2;
 //     }else{
-//         console.log("Failed");
-
+//         console.log("Can't divide by 0");
 //     }
+//     break;
 
-// let mark = 0;
-
-// if (mark > 85) {
-//   console.log("Excellent");
-// } else if (mark >= 70) {
-//   console.log("good");
-// } else if (mark >= 60) {
-//   console.log("Pass");
-// } else {
-//   console.log("Failed");
+//     default:
+//         console.log("Invalid operator");
+//         result = 9000;
 // }
 
-// if(mark<=60){
-//    console.log("Failed");
+// if(result || result ===0)  console.log(`result is: ${result}`);
 
-// }else if(mark<70){
-//     console.log("Pass");
-// }else if(mark<=85){
-//     console.log("good");
 
-// }else{
-//     console.log("Excellent");
 
-// }
-// let age = 30;
-// let hasLicence = false;
+// let fullName="";
 
-// if (age >= 21) {
-//   if (hasLicence) {
-//     console.log("You can rent car");
-//   } else {
-//     console.log("You don't have licence so you can't rent car");
-//   }
-// } else {
-//   console.log("You are under 21 years old");
-// // }
-
-// if (age >= 21 && hasLicence) {
-//   console.log("You can rent car");
-// } else {
-//   console.log("You can't rent car");
+// if(fullName){ // falsy
+//     console.log(`welcome ${fullName}`);
 // }
 
-// let isLoggedIn = true;
-// let isAdmin = true;
 
-// if (isLoggedIn) {
-//   if (isAdmin) {
-//     console.log("Admin Page");
-//   } else  {
-//     console.log("Normal User Page");
-//   }
-// } else {
-//   console.log("Forbidden");
+// let fullName="ahmed";
+
+// if(fullName){ // truthy
+//     console.log(`welcome ${fullName}`);
 // }
 
-// let isLoggedIn = true;
-// let isAdmin = false;
+// let number = 97656;
 
-// if(isLoggedIn && isAdmin){
-//     console.log("Admins page");
-// }else if(isLoggedIn){
-//     console.log("Users Page");
-// }else {
-//     console.log("Forbidden");
+// if(number){// truthy
+//     console.log(`your number is ${number}`);
 // }
 
-// let isInsideCity = true;
-// let place = "B";
+// let number = 0;
 
-// if(isInsideCity && place === "A"){
-//     console.log("Price = 20");
-// }else if (isInsideCity && place === "B"){
-//     console.log("Price = 30");
-// }else if(!isInsideCity && place === "C"){
-//     console.log("Price = 50");
-// }else{
-//     console.log("price = 70");
-// }
-//  console.log("Program Ended");
-
-// let isInsideCity = true;
-// let Area = "B";
-// let cost;
-
-// if (isInsideCity) {
-//   if (Area === "D") {
-//     cost = 20;
-//   } else {
-//     cost = 30;
-//   }
-// } else {
-//   if (Area === "C") {
-//     cost = 50;
-//   } else {
-//     cost = 70;
-//   }
+// if(number){// falsy
+//     console.log(`your number is ${number}`);
 // }
 
-// console.log(cost);
+// let number;
 
-// let mark;
-
-// if(mark> 85){
-//   console.log("Excellent");
-// }else if(mark>= 70){
-//   console.log("good");
-
-// }else if (mark>= 60){
-//   console.log("Pass");
-// }else{
-//   console.log("Failed");
+// if(number){// falsy
+//     console.log(`your number is ${number}`);
 // }
 
-let isSubscribed = false;
-let customerType = "Retired";
-let price = 15;
-let discountRate = 0.2;
+// let number= null;
 
-let finalPrice;
-
-if (isSubscribed) {
-   if (customerType === "Student" || customerType === "Retired") {
-    finalPrice = price - price * discountRate;
-  } else {
-    finalPrice = price;
-  }
- 
-} else {
-  finalPrice = price;
-}
-
-console.log(finalPrice);
+// if(number){// falsy
+//     console.log(`your number is ${number}`);
+// }
