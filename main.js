@@ -1,182 +1,130 @@
+// // inputs
+// let roomType = "double suite";
+// let peopleCount = 1;
+// let isGoldMember = false;
+// let requestedNights=20;
+// let currentMonth="September";
+
+// // calculated values
+// let roomCapacity;
+// let message;
+// let guestsCount;
+
+// // outputs
+// let reservationValue;
+// let durationDiscount=0;
+// let membershipDiscount=0;
+// let decemberAddition=0;
+// let guestsAddition=0;
+
+// if (requestedNights > 30 || requestedNights < 2) {
+//   message = "you can't reserve for more than 30 nights or less than 2 nights";
+// }
+
+// switch (roomType) {
+//   case "Single":
+//     roomCapacity = 1;
+//     pricePerNight = 50;
+//     break;
+//   case "Double":
+//     roomCapacity = 2;
+//     pricePerNight = 80;
+//     break;
+//   case "Suite":
+//     roomCapacity = 4;
+//     pricePerNight = 150;
+//     break;
+//   default:
+//     if(!message)
+//     message = "Invalid room type";
+//     break;
+// }
+
+// if (!message & peopleCount - roomCapacity > 0) {
+//   guestsCount = peopleCount - roomCapacity;
+// } else {
+//   guestsCount = 0;
+// }
+
+// if (!message && guestsCount > 2) {
+//   message = "rejecte due to guests count exceed 2 gusets";
+// }
+
+// guestsAddition = guestsCount * 20 * requestedNights;
+
+// if (!message && currentMonth === "December") {
+//   decemberAddition = pricePerNight * 0.2 * requestedNights;
+// }
+
+// if (!message && requestedNights >= 7) {
+//   durationDiscount = pricePerNight * requestedNights * 0.1;
+// } 
+
+// if (!message && isGoldMember) {
+//   membershipDiscount = requestedNights * pricePerNight * 0.05;
+// }
+
+// if(!message){
+//     reservationValue=requestedNights*pricePerNight + decemberAddition + guestsAddition - durationDiscount - membershipDiscount
+// console.log(`reservation value is ${reservationValue}`);
+// if (decemberAddition) console.log(`December addition is ${decemberAddition}`);
+// if(guestsAddition) console.log(`Guests addition is ${guestsAddition}`);
+// if(durationDiscount)console.log(`Duration discount is ${durationDiscount}`);
+// if(membershipDiscount) console.log(`Membership Discount is ${membershipDiscount}`);
+// }else{
+//     console.log(message);
+// }
+
+
 // let num1=5;
-// let num2=20;
-
-// let countOf3Divided=0;
+// let num2=8;
+// let numbersDividedBy3=0;
 // let maxNumberDividedBy9;
-
-// for(let i = num1;i<=num2;i++){
-
-//     if(i%2 ===0){
-//         console.log(i);
-//     }
+// for(let i=num1; i<=num2;i++){
+//     if(i%2 === 0)
+//     console.log(i);
 
 //     if(i%3 === 0){
-//         countOf3Divided++;
+//         numbersDividedBy3++
 //     }
-
-//     if(i%9 === 0){
-//         maxNumberDividedBy9 = i;
+//     if(i%9===0){
+//         maxNumberDividedBy9=i;
 //     }
 // }
 
-// console.log(`the count of numbers that accept divide by 3 is ${countOf3Divided}`);
-// console.log(`the max number divided by 9 is ${maxNumberDividedBy9}`);
 
 
-// for(let i =1;i<=50; i++){
-//     console.log(i);
-//     if(i%11 === 0){
+// console.log(`count of numbers divided by 3 is ${numbersDividedBy3}`);
+// if(maxNumberDividedBy9)console.log(`the max number divided by 9 is ${maxNumberDividedBy9}`)
+
+// for(let i=num2; i>=num1;i--){
+//     if(i%9===0){
+//         console.log(`the max number divided by 9 is ${i}`)
 //         break;
 //     }
 // }
 
-// for(let i =1;i<=50; i++){
- 
-//     if(i%11 === 0){
-//         break;
-//     }
-//        console.log(i);
+
+// let balance=100;
+// let days =0;
+
+// while(balance<500)
+//     {
+//     balance+=20;
+//     days++;
 // }
 
+// console.log(days);
+// console.log(balance);
 
-// let operator="+";
-// let num1=3;
-// let num2=6;
 
-// switch(operator){
-// case "+":
-// console.log(num1+num2);
-// break;
+let sumofNumbers=0;
+let i=0;
 
-// case "*":
-// console.log(num1*num2);
-
-// }
-
-// for(let i=50; i<=100;i++){
-//     if(i%4==0 && i%7 === 0){
-//         console.log(i);
-//         break;
-//     }
+while(sumofNumbers<4000){
+    i++;
+    sumofNumbers+=i;
     
-// }
-
-// for(let i= 100; i>=20; i--){
-//      if(i%4==0 && i%7 === 0){
-//     console.log(i);
-//     break;
-//      }
-// }
-
-// let maxNumberDividedBy4And7;
- 
-// for (let i = 20; i <= 100; i++) {
-//     if (i % 4 === 0 && i % 7 === 0) {
-//         maxNumberDividedBy4And7=i;
-//     };
-// }
-// console.log(maxNumberDividedBy4And7);
-
-// let firstNumberDividedByTwoNumbers;
- 
-// for (let i = 34000; i <= 35000; i++) {
-//     if (i % 127 === 0 && i % 137 === 0) {
-//         firstNumberDividedByTwoNumbers=i;
-//         break;
-//     };
-// }
-// console.log(firstNumberDividedByTwoNumbers);
-
-// let minRange;
-// let maxRange;
-// let num1;
-// let num2;
- 
-// if(maxRange>minRange){
-//     for(i=minRange; i<=maxRange; i++){
-//         if(i%num1===0 && i%num2===0){
-//             console.log(i)
-//             break;
-//         }
-//     }
-// }else{
-//     for(i=maxRange; i<=minRange; i++)
-//         if(i%num1===0 && i%num2===0){
-//             console.log(i)
-//             break;
-//         }
-// }
-
-
-// let num1=6;
-// let num2=8;
- 
-// let minRange=40;
-// let maxRange=45;
-
- 
-// for (let i = minRange; i <= maxRange; i++) {
-//     if (i % num1 === 0 && i % num2 === 0) {
-//         console.log(i);
-//         break;
-//     }
-// }
- 
-
-// let num1=6;
-// let num2=8;
- 
-// let minRange=40;
-// let maxRange=50;
-
-// let firstNumberDividedByTwoNumbers;
- 
-// for (let i = minRange; i <= maxRange; i++) {
-//     if (i % num1 === 0 && i % num2 === 0) {
-//         firstNumberDividedByTwoNumbers =i;
-//         break;
-//     }
-// }
- 
-// if(firstNumberDividedByTwoNumbers){
-
-//     console.log(firstNumberDividedByTwoNumbers)
-// }else{
-//     console.log ("no number found");
-// }
-
-
-// for (let i = 1; i <= 20; i++) {
-//     if(i===5) continue;
-
-//         console.log(i);
-    
-
-//     // code print table of number
-// }
-
-
-// for (let i = 1; i <= 20; i++) {
-//     if(i%3 ===0)continue;
-//     console.log(i);
-// }
-
-
-// for (let i = 1; i <= 20; i++) {
-   
-//     if(i%2 ===0)continue;
-//     if(i%3 ===0)continue;
-//     console.log(i);
-// }
- 
-// for(let i =1; i<=20; i++){
-//     if(i%2===1 && i%3!==0){
-//         console.log(i);
-//     }
-// }
-
-for(let i=1;i<=20;i++){
-    if(i%2===0 || i%3===0){
-        console.log(i);
-    }
 }
+
+console.log(i);
